@@ -8,15 +8,13 @@ const MountainsPage = () => {
   const [selectedMountain, setSelectedMountain] = useState(null);
 
   const handleMountainSelect = (mountain) => {
-    setSelectedMountain(mountain);
+    const selectedMountainImage = require(`../../images/${mountain.img}`).default;
+    setSelectedMountain({ ...mountain, image: selectedMountainImage });
   };
 
   return (
     <div className="container-sm text-center mt-5 mountains">
-      <MountainSelect
-        mountainsData={mountainsData}
-        onMountainSelect={handleMountainSelect}
-      />
+      <MountainSelect mountainsData={mountainsData} onMountainSelect={handleMountainSelect} />
       <MountainDetail mountain={selectedMountain} />
     </div>
   );

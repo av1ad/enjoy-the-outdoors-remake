@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomePage.css';
+import NationalParkImage from '../../images/nationalpark.webp';
 
 const HomePage = () => {
   return (
@@ -14,7 +15,7 @@ const HomePage = () => {
         National Parks and Mountains in the United States.
       </p>
       <img
-        src="/images/nationalpark.webp"
+        src={NationalParkImage}
         alt="Trees and mountains"
         className="home-img"
       />

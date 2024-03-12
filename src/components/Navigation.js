@@ -23,28 +23,30 @@ const Navigation = () => {
           <ul className="navbar-nav me-auto mt-2 mt-lg-0">
             <li className="nav-item">
               <NavLink
-                exact
-                className="nav-link"
-                activeClassName="active"
                 to="/"
+                className={({ isActive }) =>
+                  isActive ? 'nav-link active' : 'nav-link'
+                }
               >
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
-                className="nav-link"
-                activeClassName="active"
                 to="/national-parks"
+                className={({ isActive }) =>
+                  isActive ? 'nav-link active' : 'nav-link'
+                }
               >
                 National Parks
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
-                className="nav-link"
-                activeClassName="active"
                 to="/mountains"
+                className={({ isActive }) =>
+                  isActive ? 'nav-link active' : 'nav-link'
+                }
               >
                 Mountains Information
               </NavLink>

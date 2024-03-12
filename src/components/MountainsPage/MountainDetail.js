@@ -5,14 +5,12 @@ const MountainDetail = ({ mountain }) => {
     return <div id="show-results"></div>;
   }
 
+  const imagePath = `../../images/${mountain.img}`;
+
   return (
     <div id="show-results" className="mt-5">
       <h2 className="mountain-name">{mountain.name}</h2>
-      <img
-        src={`/images/${mountain.img}`}
-        alt={mountain.name}
-        className="mountain-img"
-      />
+      <img src={imagePath} alt={mountain.name} className="mountain-img" />
       <p className="mountain-elevation">Elevation: {mountain.elevation} ft</p>
       <p className="mountain-desc text-wrap">Description: {mountain.desc}</p>
       <p className="mountain-coords">
