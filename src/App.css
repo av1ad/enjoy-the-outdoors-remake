@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+:root {
+  --dark-slate-grey: #36453b;
+  --dim-grey: #596869;
+  --ebony: #515751;
+  --ivory: #f5f9e9;
+  --sage: #c2c1a5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Universal Styling */
+* {
+  font-family: 'Merriweather', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  background-color: var(--dark-slate-grey);
+  color: var(--ivory);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.wrapper {
+  background-color: var(--dim-grey);
+  color: var(--sage);
 }
 
-.App-link {
-  color: #61dafb;
+/* Styling for Home Page */
+.greater-outdoors {
+  margin: 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.greater-outdoors > p {
+  margin: 0;
+}
+
+.home-img {
+  width: 75%;
+  margin-top: 2em;
+}
+
+/* Styling for National Parks Page */
+.card {
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+.card-body {
+  background-color: var(--ebony) !important;
+  color: var(--sage) !important;
+  border: none !important;
+  border-radius: 10px;
+}
+
+.card-link {
+  color: var(--ivory);
+}
+
+/* Styling for Mountains */
+.mountain-img {
+  margin: 2em 0;
 }
