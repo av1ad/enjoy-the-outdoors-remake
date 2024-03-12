@@ -1,7 +1,7 @@
 # Enjoy The Outdoors
 
 ## Live Preview
-Click [here]() for a live preview of the project.
+Click [here](https://jewelsonmyjeans.github.io/enjoy-the-outdoors-remake/) for a live preview of the project.
 
 ## Project Description
 
@@ -9,7 +9,7 @@ This web application is designed to assist users in discovering national parks a
 
 ## Live Preview
 
-To see a live preview of the project, click [here]().
+To see a live preview of the project, click [here](https://jewelsonmyjeans.github.io/enjoy-the-outdoors-remake/).
 
 ## Images
 
