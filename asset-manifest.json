@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/enjoy-the-outdoors-remake/static/css/main.b9914d9f.css",
+    "main.css": "/enjoy-the-outdoors-remake/static/css/main.98a1abd4.css",
     "main.js": "/enjoy-the-outdoors-remake/static/js/main.7dd8ebe7.js",
     "static/media/HomePage.png": "/enjoy-the-outdoors-remake/static/media/HomePage.aed562f44b76a07b7981.png",
     "static/media/MountainsPage2.png": "/enjoy-the-outdoors-remake/static/media/MountainsPage2.7536ce26887dad6bf127.png",
@@ -55,11 +55,11 @@
     "static/media/Whiteface-StoryImg.jpg": "/enjoy-the-outdoors-remake/static/media/Whiteface-StoryImg.5e72907a0de1bf798766.jpg",
     "static/media/M-Tripyramids-StoryImg.jpg": "/enjoy-the-outdoors-remake/static/media/M-Tripyramids-StoryImg.a789233350854ce3c67e.jpg",
     "index.html": "/enjoy-the-outdoors-remake/index.html",
-    "main.b9914d9f.css.map": "/enjoy-the-outdoors-remake/static/css/main.b9914d9f.css.map",
+    "main.98a1abd4.css.map": "/enjoy-the-outdoors-remake/static/css/main.98a1abd4.css.map",
     "main.7dd8ebe7.js.map": "/enjoy-the-outdoors-remake/static/js/main.7dd8ebe7.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9914d9f.css",
+    "static/css/main.98a1abd4.css",
     "static/js/main.7dd8ebe7.js"
   ]
 }
