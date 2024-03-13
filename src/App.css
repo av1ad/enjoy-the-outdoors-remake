@@ -9,6 +9,11 @@
 }
 
 /* Universal Styling */
+body {
+  background-color: var(--dim-grey);
+  color: var(--sage);
+
+}
 * {
   font-family: 'Merriweather', serif;
 }
