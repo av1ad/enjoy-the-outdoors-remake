@@ -16,7 +16,7 @@ const Footer: React.FC = memo(() => {
               <a href="mailto:aviadchuraman@gmail.com" className="text-light text-decoration-none">Contact</a>
             </div>
             <small className="text-white">
-              <a href="https://github.com/av1ad">© {currentYear} Aviad Churaman. All rights reserved.</a>
+              <a href="https://github.com/av1ad" className='text-white'>© {currentYear} Aviad Churaman. All rights reserved.</a>
             </small>
           </div>
         </div>
