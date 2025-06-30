@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[3768],{3768:(e,o,s)=>{e.exports=s.p+"static/media/M-Tripyramids-StoryImg.a789233350854ce3c67e.jpg"}}]);

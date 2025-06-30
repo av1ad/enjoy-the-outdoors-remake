@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[9603],{9603:(e,a,o)=>{e.exports=o.p+"static/media/Carrigain-StoryImage_2.c34bc31cc7385a3fed17.jpg"}}]);

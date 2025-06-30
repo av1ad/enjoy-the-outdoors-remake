@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[2566],{2566:(e,o,t)=>{e.exports=t.p+"static/media/Garfield-StoryImage.564dd7b4400d22c6489b.jpg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[5844],{5844:(e,a,t)=>{e.exports=t.p+"static/media/Wildcat-StoryImage.ab0353a7915da405c67f.jpg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[4842],{4842:(e,o,a)=>{e.exports=a.p+"static/media/Eisenhower-StoryImage_2.431f604d841ca745faaf.jpg"}}]);

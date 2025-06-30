@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[5279],{5279:(e,o,s)=>{e.exports=s.p+"static/media/OwlsHead-StoryImg.8fb07ba22d60c78cf3d0.jpg"}}]);

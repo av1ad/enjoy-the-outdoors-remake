@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[7887],{7887:(e,o,t)=>{e.exports=t.p+"static/media/Galehead-StoryImg.cf858811e8349e1203ec.jpg"}}]);

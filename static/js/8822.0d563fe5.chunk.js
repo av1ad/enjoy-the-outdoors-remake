@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[8822],{8822:(e,t,o)=>{e.exports=o.p+"static/media/Carters-StoryImage.9c45eb40f75bd5416373.jpg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[6338],{6338:(e,o,t)=>{e.exports=t.p+"static/media/Tom-StoryImg.002f8c7ee4cb2e5b04c3.jpg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[7690],{7690:(e,o,s)=>{e.exports=s.p+"static/media/MountainsPage.4bd203ef53ccd3a7ee90.png"}}]);

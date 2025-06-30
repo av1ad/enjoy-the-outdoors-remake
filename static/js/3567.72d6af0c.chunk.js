@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[3567],{3567:(e,o,t)=>{e.exports=t.p+"static/media/Cabot-StoryImg.38cf8668963f027b5db7.jpg"}}]);

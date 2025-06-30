@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[8194],{8194:(e,o,t)=>{e.exports=t.p+"static/media/Pierce-StoryImg.d0152377768e3c4b3337.jpg"}}]);

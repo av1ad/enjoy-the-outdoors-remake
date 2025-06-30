@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[5656],{5656:(e,o,t)=>{e.exports=t.p+"static/media/STwin-StoryImage_2.475fba03a8fd6febcc87.jpg"}}]);

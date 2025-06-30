@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[427],{427:(e,o,t)=>{e.exports=t.p+"static/media/Monroe-StoryImage_2.a3255041e364fdc1e6c6.jpg"}}]);

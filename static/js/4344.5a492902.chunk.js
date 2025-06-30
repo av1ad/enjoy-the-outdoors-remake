@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[4344],{4344:(e,t,o)=>{e.exports=o.p+"static/media/Lafayette-StoryImage_2.de965342b2b2c8983581.jpg"}}]);

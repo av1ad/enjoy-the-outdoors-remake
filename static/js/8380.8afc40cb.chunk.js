@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenjoy_the_outdoors_remake=self.webpackChunkenjoy_the_outdoors_remake||[]).push([[8380],{8380:(e,o,s)=>{e.exports=s.p+"static/media/Tecumseh-StoryImg.f93dd86c073c7e46aedd.jpg"}}]);
