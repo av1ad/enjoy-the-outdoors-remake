@@ -1,65 +1,474 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap');
 
 :root {
+  /* Original outdoor theme colors */
   --dark-slate-grey: #36453b;
   --dim-grey: #596869;
   --ebony: #515751;
   --ivory: #f5f9e9;
   --sage: #c2c1a5;
+  
+  /* Enhanced outdoor palette */
+  --forest-green: #2d5016;
+  --pine-green: #1a3409;
+  --moss-green: #4a5d23;
+  --stone-grey: #7d8471;
+  --earth-brown: #8b7355;
+  --sunset-orange: #d2691e;
+  --sky-blue: #87ceeb;
+  --snow-white: #fafafa;
+  
+  /* Gradients */
+  --hero-gradient: linear-gradient(135deg, var(--dark-slate-grey) 0%, var(--forest-green) 100%);
+  --card-gradient: linear-gradient(145deg, var(--ebony) 0%, var(--dark-slate-grey) 100%);
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(54, 69, 59, 0.1);
+  --shadow-md: 0 4px 16px rgba(54, 69, 59, 0.15);
+  --shadow-lg: 0 8px 32px rgba(54, 69, 59, 0.2);
 }
 
-/* Universal Styling */
-body {
-  background-color: var(--dim-grey);
-  color: var(--sage);
-
-}
+/* Global Styles */
 * {
-  font-family: 'Merriweather', serif;
+  box-sizing: border-box;
 }
 
-.navbar {
-  background-color: var(--dark-slate-grey);
+body {
+  background: linear-gradient(180deg, var(--dim-grey) 0%, var(--stone-grey) 100%);
+  color: var(--sage);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
   color: var(--ivory);
 }
 
-.wrapper {
-  background-color: var(--dim-grey);
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+/* Navigation Styles */
+.navbar {
+  background: var(--hero-gradient) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid var(--moss-green);
+  box-shadow: var(--shadow-md);
+}
+
+.navbar-brand {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  color: var(--ivory) !important;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: var(--sage) !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: var(--ivory) !important;
+  transform: translateY(-1px);
+}
+
+.nav-link.active {
+  color: var(--ivory) !important;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 2px;
+  background: var(--sunset-orange);
+  border-radius: 2px;
+}
+
+/* Homepage Styles */
+.homepage {
+  background: var(--dim-grey);
+}
+
+.hero-section {
+  background: var(--hero-gradient);
+  color: var(--ivory);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200"><path d="M0,100 C150,200 350,0 500,100 C650,200 850,0 1000,100 L1000,200 L0,200 Z" fill="rgba(255,255,255,0.03)"/></svg>') repeat-x;
+  animation: wave 20s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-50px); }
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-image img {
+  border-radius: 20px;
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.3s ease;
+}
+
+.hero-image img:hover {
+  transform: scale(1.02);
+}
+
+.min-vh-75 {
+  min-height: 75vh;
+}
+
+/* Feature Cards */
+.feature-card {
+  background: var(--card-gradient) !important;
+  border: 1px solid var(--moss-green) !important;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.feature-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.05), transparent);
+  transition: left 0.5s ease;
+}
+
+.feature-card:hover::before {
+  left: 100%;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--sunset-orange) !important;
+}
+
+.feature-icon {
+  color: var(--sunset-orange);
+}
+
+.feature-emoji {
+  font-size: 4rem !important;
+  line-height: 1;
+  display: block;
+  margin: 0 auto;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+.features-section {
+  background: linear-gradient(180deg, var(--stone-grey) 0%, var(--dim-grey) 100%);
+}
+
+.stats-section {
+  background: var(--dark-slate-grey);
+  color: var(--ivory);
+}
+
+.stat-item {
+  padding: 2rem;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: scale(1.05);
+}
+
+/* National Parks Page */
+.national-parks-page {
+  background: var(--dim-grey);
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.national-parks-search {
+  background: var(--card-gradient);
+  border-radius: 15px;
+  padding: 1.5rem;
+  color: var(--ivory);
+}
+
+.form-label {
+  color: var(--ivory) !important;
+  font-weight: 600;
+}
+
+.form-select {
+  background-color: var(--ebony) !important;
+  border: 2px solid var(--moss-green) !important;
+  color: var(--sage) !important;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.form-select:focus {
+  border-color: var(--sunset-orange) !important;
+  box-shadow: 0 0 0 0.2rem rgba(210, 105, 30, 0.25) !important;
+  background-color: var(--dark-slate-grey) !important;
+}
+
+.form-select option {
+  background-color: var(--ebony);
   color: var(--sage);
 }
 
-/* Styling for Home Page */
-.greater-outdoors {
-  margin: 2em;
+/* Park Cards */
+.park-card {
+  background: var(--card-gradient) !important;
+  border: 1px solid var(--moss-green) !important;
+  transition: all 0.3s ease;
+  color: var(--sage);
 }
 
-.greater-outdoors > p {
-  margin: 0;
+.park-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--sunset-orange) !important;
 }
 
-.home-img {
-  width: 75%;
-  margin-top: 2em;
+.park-card .card-title {
+  color: var(--sunset-orange) !important;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
-/* Styling for National Parks Page */
-.card {
-  border: none !important;
-  border-radius: 10px !important;
-}
-
-.card-body {
-  background-color: var(--ebony) !important;
+.park-card .card-text {
   color: var(--sage) !important;
-  border: none !important;
-  border-radius: 10px;
 }
 
-.card-link {
+/* Mountain Page */
+.mountains {
+  background: var(--dim-grey);
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.mountain-detail .card {
+  background: var(--card-gradient) !important;
+  border: 2px solid var(--moss-green) !important;
+  color: var(--sage);
+}
+
+.mountain-detail .card:hover {
+  border-color: var(--sunset-orange) !important;
+  box-shadow: var(--shadow-lg);
+}
+
+.mountain-select-container .form-select {
+  background-color: var(--ebony) !important;
+  border: 2px solid var(--moss-green) !important;
+  color: var(--sage) !important;
+}
+
+.mountain-img {
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.mountain-img:hover {
+  transform: scale(1.02);
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(135deg, var(--sunset-orange) 0%, var(--earth-brown) 100%) !important;
+  border: none !important;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  background: linear-gradient(135deg, var(--earth-brown) 0%, var(--sunset-orange) 100%) !important;
+}
+
+.btn-outline-primary {
+  border: 2px solid var(--sunset-orange) !important;
+  color: var(--sunset-orange) !important;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background: var(--sunset-orange) !important;
+  color: var(--ivory) !important;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-outline-secondary {
+  border: 2px solid var(--sage) !important;
+  color: var(--sage) !important;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+  background: var(--sage) !important;
+  color: var(--dark-slate-grey) !important;
+  transform: translateY(-1px);
+}
+
+/* Footer */
+.footer {
+  background: var(--pine-green) !important;
+  border-top: 3px solid var(--moss-green);
+  margin-top: auto;
+}
+
+.footer h5 {
+  color: var(--sunset-orange) !important;
+}
+
+.footer a {
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: var(--sunset-orange) !important;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+  color: var(--sage);
+}
+
+.spinner-border {
+  color: var(--sunset-orange) !important;
+}
+
+/* Badges */
+.badge {
+  border-radius: 20px;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+}
+
+.badge.bg-danger {
+  background: linear-gradient(135deg, #dc3545 0%, #a71e2a 100%) !important;
+}
+
+.badge.bg-warning {
+  background: linear-gradient(135deg, var(--sunset-orange) 0%, var(--earth-brown) 100%) !important;
+  color: var(--ivory) !important;
+}
+
+.badge.bg-success {
+  background: linear-gradient(135deg, var(--forest-green) 0%, var(--moss-green) 100%) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 3rem 0;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .feature-card {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mountain-detail .row {
+    flex-direction: column-reverse;
+  }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Error and Empty States */
+.alert {
+  background: var(--card-gradient) !important;
+  border: 2px solid var(--moss-green) !important;
+  color: var(--sage) !important;
+  border-radius: 12px;
+}
+
+.alert-info {
+  border-color: var(--sky-blue) !important;
+}
+
+.alert-danger {
+  border-color: #dc3545 !important;
+}
+
+/* Search Results */
+.search-info {
+  color: var(--sage);
+  font-weight: 500;
+}
+
+.search-info strong {
   color: var(--ivory);
 }
 
-/* Styling for Mountains */
-.mountain-img {
-  margin: 2em 0;
+/* Utility Classes */
+.text-outdoor-primary {
+  color: var(--sunset-orange) !important;
+}
+
+.bg-outdoor-gradient {
+  background: var(--hero-gradient) !important;
+}
+
+.border-outdoor {
+  border-color: var(--moss-green) !important;
 }

@@ -1,4 +1,6 @@
-const mountainsArray = [
+import { Mountain } from '../types';
+
+const mountainsArray: Mountain[] = [
     {
       name: "Mt. Washington",
       elevation: 6288,

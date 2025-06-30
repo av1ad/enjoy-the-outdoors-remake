@@ -1,4 +1,6 @@
-export const nationalParksArray = [
+import { NationalPark } from '../types';
+
+export const nationalParksArray: NationalPark[] = [
     {
       LocationID: "ABLI",
       LocationName: "Abraham Lincoln Birthplace National Historical Park",
@@ -5813,7 +5815,7 @@ export const nationalParksArray = [
     },
   ];
   
-  export const locationsArray = [
+  export const locationsArray: string[] = [
     "Alabama",
     "Alaska",
     "American Samoa",
@@ -5871,7 +5873,7 @@ export const nationalParksArray = [
     "Wyoming",
   ];
   
-  export const parkTypesArray = [
+  export const parkTypesArray: string[] = [
     "National Park",
     "National Monument",
     "Recreation Area",
