@@ -151,7 +151,7 @@ src/
 
 ## 🤝 Contributing
 
-We welcome contributions! Please feel free to submit issues, feature requests, or pull requests.
+I welcome contributions! Please feel free to submit issues, feature requests, or pull requests.
 
 ### Development Guidelines
 - Follow TypeScript best practices
