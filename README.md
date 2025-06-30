@@ -4,7 +4,7 @@ A modern, professional React application for discovering America's spectacular n
 
 ## 🚀 Live Demo
 
-**[View Live Application](https://jewelsonmyjeans.github.io/enjoy-the-outdoors-remake/)**
+**[View Live Application](https://av1ad.github.io/enjoy-the-outdoors-remake/)**
 
 ## ✨ Features
 
