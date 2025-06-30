@@ -13,12 +13,10 @@ const Footer: React.FC = memo(() => {
           </div>
           <div className="col-md-6 text-md-end">
             <div className="footer-links mb-2">
-              <a href="#" className="text-light text-decoration-none me-3">Privacy Policy</a>
-              <a href="#" className="text-light text-decoration-none me-3">Terms of Service</a>
-              <a href="#" className="text-light text-decoration-none">Contact</a>
+              <a href="mailto:aviadchuraman@gmail.com" className="text-light text-decoration-none">Contact</a>
             </div>
-            <small className="text-muted">
-              © {currentYear} Greater Outdoors. All rights reserved.
+            <small className="text-white">
+              © {currentYear} Aviad Churaman. All rights reserved.
             </small>
           </div>
         </div>
