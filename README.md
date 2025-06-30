@@ -4,7 +4,7 @@ A modern, professional React application for discovering America's spectacular n
 
 ## 🚀 Live Demo
 
-**[View Live Application](https://av1ad.github.io/enjoy-the-outdoors-remake/)**
+**[View Live Application](https://enjoy-the-outdoors-woad.vercel.app/)**
 
 ## ✨ Features
 
@@ -48,7 +48,7 @@ A modern, professional React application for discovering America's spectacular n
 
 ### Build & Deployment
 - **Create React App** - Battle-tested build configuration
-- **GitHub Pages** - Automated deployment pipeline
+- **Vercel** - Automated deployment pipeline
 - **ESLint** - Code quality and consistency checking
 
 ## 📊 Application Statistics
