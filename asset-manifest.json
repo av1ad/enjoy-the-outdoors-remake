@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/enjoy-the-outdoors-remake/static/css/main.a4abeac3.css",
-    "main.js": "/enjoy-the-outdoors-remake/static/js/main.aef0d959.js",
+    "main.css": "/enjoy-the-outdoors-remake/static/css/main.4863570d.css",
+    "main.js": "/enjoy-the-outdoors-remake/static/js/main.c944b95e.js",
     "static/css/3480.31d6cfe0.chunk.css": "/enjoy-the-outdoors-remake/static/css/3480.31d6cfe0.chunk.css",
-    "static/js/3480.8b125563.chunk.js": "/enjoy-the-outdoors-remake/static/js/3480.8b125563.chunk.js",
+    "static/js/3480.0fd6ce8c.chunk.js": "/enjoy-the-outdoors-remake/static/js/3480.0fd6ce8c.chunk.js",
     "static/css/6932.31d6cfe0.chunk.css": "/enjoy-the-outdoors-remake/static/css/6932.31d6cfe0.chunk.css",
-    "static/js/6932.fd235ccd.chunk.js": "/enjoy-the-outdoors-remake/static/js/6932.fd235ccd.chunk.js",
+    "static/js/6932.deaf6bfd.chunk.js": "/enjoy-the-outdoors-remake/static/js/6932.deaf6bfd.chunk.js",
     "static/css/2811.0561f127.chunk.css": "/enjoy-the-outdoors-remake/static/css/2811.0561f127.chunk.css",
-    "static/js/2811.4c8f12a7.chunk.js": "/enjoy-the-outdoors-remake/static/js/2811.4c8f12a7.chunk.js",
+    "static/js/2811.6c26734e.chunk.js": "/enjoy-the-outdoors-remake/static/js/2811.6c26734e.chunk.js",
     "static/js/8067.7a89d4b1.chunk.js": "/enjoy-the-outdoors-remake/static/js/8067.7a89d4b1.chunk.js",
     "static/js/3587.6565977a.chunk.js": "/enjoy-the-outdoors-remake/static/js/3587.6565977a.chunk.js",
     "static/js/4662.723242c0.chunk.js": "/enjoy-the-outdoors-remake/static/js/4662.723242c0.chunk.js",
@@ -115,15 +115,15 @@
     "static/media/Whiteface-StoryImg.jpg": "/enjoy-the-outdoors-remake/static/media/Whiteface-StoryImg.5e72907a0de1bf798766.jpg",
     "static/media/M-Tripyramids-StoryImg.jpg": "/enjoy-the-outdoors-remake/static/media/M-Tripyramids-StoryImg.a789233350854ce3c67e.jpg",
     "index.html": "/enjoy-the-outdoors-remake/index.html",
-    "main.a4abeac3.css.map": "/enjoy-the-outdoors-remake/static/css/main.a4abeac3.css.map",
-    "main.aef0d959.js.map": "/enjoy-the-outdoors-remake/static/js/main.aef0d959.js.map",
-    "3480.8b125563.chunk.js.map": "/enjoy-the-outdoors-remake/static/js/3480.8b125563.chunk.js.map",
-    "6932.fd235ccd.chunk.js.map": "/enjoy-the-outdoors-remake/static/js/6932.fd235ccd.chunk.js.map",
+    "main.4863570d.css.map": "/enjoy-the-outdoors-remake/static/css/main.4863570d.css.map",
+    "main.c944b95e.js.map": "/enjoy-the-outdoors-remake/static/js/main.c944b95e.js.map",
+    "3480.0fd6ce8c.chunk.js.map": "/enjoy-the-outdoors-remake/static/js/3480.0fd6ce8c.chunk.js.map",
+    "6932.deaf6bfd.chunk.js.map": "/enjoy-the-outdoors-remake/static/js/6932.deaf6bfd.chunk.js.map",
     "2811.0561f127.chunk.css.map": "/enjoy-the-outdoors-remake/static/css/2811.0561f127.chunk.css.map",
-    "2811.4c8f12a7.chunk.js.map": "/enjoy-the-outdoors-remake/static/js/2811.4c8f12a7.chunk.js.map"
+    "2811.6c26734e.chunk.js.map": "/enjoy-the-outdoors-remake/static/js/2811.6c26734e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4abeac3.css",
-    "static/js/main.aef0d959.js"
+    "static/css/main.4863570d.css",
+    "static/js/main.c944b95e.js"
   ]
 }
